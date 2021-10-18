@@ -1,0 +1,28 @@
+{
+  "name": "server-deployment-pratice",
+  "version": "1.0.0",
+  "description": "lab01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylecohen14/server-deployment-pratice.git"
+  },
+  "keywords": [],
+  "author": "Kyle Cohen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylecohen14/server-deployment-pratice/issues"
+  },
+  "homepage": "https://github.com/kylecohen14/server-deployment-pratice#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.0",
+    "supertest": "^6.1.6"
+  }
+}
